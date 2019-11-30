@@ -10,9 +10,8 @@ using System.Windows.Forms;
 using System.Security;
 using System.Threading;
 using System.Drawing;
-using System.Drawing.Design;
 using System.Diagnostics;
-
+using System.Runtime.InteropServices;
 
 namespace AC_Trainer
 {
@@ -25,6 +24,7 @@ namespace AC_Trainer
         }
         
         public static int Base = 0x509B74;
+        public static int EntityList = 0x10F4F8;
         public static int Health = 0xf8;
         public static int AmmoR = 0x150;
         public static int AmmoP = 0x13C; 
@@ -44,10 +44,20 @@ namespace AC_Trainer
         public int PlayerX = 0x4;
         public int PlayerZ = 0x8;
         public int ViewMatrix = 0x501AE8;
+        public int POS_HEAD_X = 0x4;
+        public int POS_HEAD_Z = 0x8;
+        public int POS_HEAD_Y =  0xC;
+        public int players = 0x10F500;
+        public int team = 0x32C;
+
+
+
+
 
 
         VAMemory vam = new VAMemory("ac_client");
 
+        
         
         public void DrawRectangle(PaintEventArgs e) 
         {
@@ -96,7 +106,16 @@ namespace AC_Trainer
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            if (checkBox1.Checked == true)
+            {
 
+                frm.Show();
+
+            }
+            else
+            {
+                frm.Hide();
+            }
 
         }
 
@@ -124,7 +143,12 @@ namespace AC_Trainer
 
         private void button8_Click(object sender, EventArgs e)
         {
-           
+            
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            vam.ReadInt32((IntPtr)ViewMatrix);
         }
     }
 
