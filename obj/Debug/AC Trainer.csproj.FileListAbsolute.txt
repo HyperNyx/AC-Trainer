@@ -1,0 +1,12 @@
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\bin\Debug\AC Trainer.exe.config
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\bin\Debug\AC Trainer.exe
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\bin\Debug\AC Trainer.pdb
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC_Trainer.Form1.resources
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC_Trainer.Properties.Resources.resources
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC Trainer.csproj.GenerateResource.cache
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC Trainer.exe
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC Trainer.pdb
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC Trainer.csprojAssemblyReference.cache
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\bin\Debug\VAMemory.dll
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC Trainer.csproj.CopyComplete
+C:\Users\Vortexian\source\repos\Frost\AC Trainer\obj\Debug\AC_Trainer.FormOverlay.resources
